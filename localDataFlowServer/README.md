@@ -11,8 +11,7 @@ There are 3 ways to start the data flow local server:
 * Java8
 * port: 9393 (`dataflow-server`)
 * port: 9300 (`http-source-rabbit` app)
-* port: 5672 (RabbitMQ)
-* port: 15672 (RabbitMQ management)
+* port: 5672, 15672, 25672, 61613, 1883 (RabbitMQ with management plugin)
 
 ## How to start data flow server
 ### Using docker compose
